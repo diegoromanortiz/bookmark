@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+   
+    <body>
+    
+                   
+                    <p>Bienvenido al tablero. Usted puede <a href="{% url 'edit' %}"> editar su perfil</a>
+                        o <a href="{% url 'password_change' %}">cambiar su contraseña</a></p>
+                
+                </body>
+ {% endblock %}       
